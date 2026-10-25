@@ -202,10 +202,11 @@ input:focus {
 #actions a {
   color: #596D48;
   font-weight: bold;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: none;
+#actions a:hover {
+  text-decoration: underline;
 }
 
 #actions button:hover {
